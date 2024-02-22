@@ -1,0 +1,8 @@
+../Core/Src/MB1642BDataReader.c:23:6:readData	40	static
+../Core/Src/MB1642BDataReader.c:106:6:readDataDMA	24	static
+../Core/Src/MB1642BDataReader.c:188:6:DataReader_DMACallback	8	static
+../Core/Src/MB1642BDataReader.c:209:6:DataReader_ReadData	24	static
+../Core/Src/MB1642BDataReader.c:214:6:DataReader_StartDMAReadData	24	static
+../Core/Src/MB1642BDataReader.c:219:10:DataReader_IsReceivingData	8	static
+../Core/Src/MB1642BDataReader.c:224:6:DataReader_WaitForReceiveDone	8	static
+../Core/Src/MB1642BDataReader.c:229:6:DataReader_Init	8	static

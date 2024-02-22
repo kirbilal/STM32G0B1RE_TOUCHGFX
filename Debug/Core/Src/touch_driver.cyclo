@@ -1,0 +1,6 @@
+../Core/Src/touch_driver.c:21:6:sitronix_software_reset	2
+../Core/Src/touch_driver.c:35:6:sitronix_hardware_reset	1
+../Core/Src/touch_driver.c:45:6:sitronix_status_get	2
+../Core/Src/touch_driver.c:59:6:sitronix_version_get	3
+../Core/Src/touch_driver.c:78:6:sitronix_close_multitouch	2
+../Core/Src/touch_driver.c:89:6:sitronix_get_coordinates	5
