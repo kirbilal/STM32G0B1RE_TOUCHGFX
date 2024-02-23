@@ -89,9 +89,3 @@ TouchGFX Generator ayarları yapılır.
   <img width="85%" height="85%" src="Documents/Images/TouchGFX_Configurations.png">
 </div>
 <br />
-
-
-
-
-
-
