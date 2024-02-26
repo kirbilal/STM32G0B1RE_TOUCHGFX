@@ -154,4 +154,5 @@ Debugger sekmesinden External loaders kısmından External Dosyası seçilir.
 Artık ekranın sürülmesi için herhangi bir sorun kalmamıştır. Bundan sonraki kısımda TouchGFX-> Dosya_İsmi.touchgfx dosyası ile TouchGFX Designer programında tasarım yapıp STM32CubeIDE kısmından mikrodenetleyiciye yükleyerek arayüz tasarımı yapabilirsiniz.
 
 Ekleme yapmak ve geliştirmek için iletişime geçebilirsiniz.
+<br />
 mail : bilal.kir@empa.com
