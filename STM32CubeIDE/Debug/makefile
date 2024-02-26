@@ -96,8 +96,8 @@ all: main-build
 main-build: STM32G0B1RE_TOUCHGFX.elf secondary-outputs
 
 # Tool invocations
-STM32G0B1RE_TOUCHGFX.elf STM32G0B1RE_TOUCHGFX.map: $(OBJS) $(USER_OBJS) C:\Workspace\STM32G0B1RE_TOUCHGFX\STM32G0B1RETX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-g++ -o "STM32G0B1RE_TOUCHGFX.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m0plus -T"C:\Workspace\STM32G0B1RE_TOUCHGFX\STM32G0B1RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32G0B1RE_TOUCHGFX.map" -Wl,--gc-sections -static -L"C:\Workspace\STM32G0B1RE_TOUCHGFX\Middlewares\ST\touchgfx\lib\core\cortex_m0\gcc" --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+STM32G0B1RE_TOUCHGFX.elf STM32G0B1RE_TOUCHGFX.map: $(OBJS) $(USER_OBJS) C:\Workspace\STM32G0B1RE_TOUCHGFX\STM32CubeIDE\STM32G0B1RETX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-g++ -o "STM32G0B1RE_TOUCHGFX.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m0plus -T"C:\Workspace\STM32G0B1RE_TOUCHGFX\STM32CubeIDE\STM32G0B1RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32G0B1RE_TOUCHGFX.map" -Wl,--gc-sections -static -L"C:\Workspace\STM32G0B1RE_TOUCHGFX\STM32CubeIDE\Middlewares\ST\touchgfx\lib\core\cortex_m0\gcc" --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
